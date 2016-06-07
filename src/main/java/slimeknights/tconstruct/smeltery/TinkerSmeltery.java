@@ -351,6 +351,8 @@ public class TinkerSmeltery extends TinkerPulse {
                                                            TinkerFluids.searedStone, Material.VALUE_Ore));
     TinkerRegistry.registerMelting(MeltingRecipe.forAmount(RecipeMatch.of("cobblestone", Material.VALUE_SearedMaterial),
                                                            TinkerFluids.searedStone, Material.VALUE_Ore));
+    TinkerRegistry.registerMelting(MeltingRecipe.forAmount(RecipeMatch.of("stoneAndesite", Material.VALUE_SearedMaterial),
+                                                           TinkerFluids.searedStone, Material.VALUE_Ore));
 
     // obsidian
     TinkerRegistry.registerMelting(MeltingRecipe.forAmount(RecipeMatch.of("obsidian", Material.VALUE_Ore),
